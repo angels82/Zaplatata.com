@@ -1,0 +1,244 @@
+body {
+	background: url("backgroundtile.gif");  
+}
+
+ 
+@font-face {
+    font-family: "My Custom Font";
+    src: url(https://github.com/theleagueof/ostrich-sans/OstrichSans-Bold.otf) format("truetype");
+}
+#zaplatata { 
+    font-family: "B52", Verdana, Tahoma;
+	font-size: 5em;
+	margin: 0 auto;
+	text-align: center
+	
+}
+
+#welcome {
+	font-family: "B52", Verdana, Tahoma;
+	font-size: 4em;
+	margin: 0 auto;
+	text-align: center
+	
+}
+
+.paragraph, .search1 {
+	font-family: "B52", Verdana, Tahoma;
+	font-size: 2em;
+	margin: 0 auto;
+	text-align: justify
+}
+span{
+	font-family: "B52", Verdana, Tahoma;
+	font-size: 16px;
+}
+#spanmain {
+	font-size: 26px;
+}
+
+
+#but {
+	font-family: "B52", Verdana, Tahoma;
+	font-size: 2em;
+	margin: 0 auto;
+	text-align: center;
+	background-color: #D3D3D3;
+	
+}
+
+#but:hover {
+	background-color: gray;
+	color: white;
+	font-style: italic
+	
+}
+
+#wrapper {
+	border: 1px solid black;
+	border-radius: 40px;
+	padding: 20px
+}
+
+#home, #login, #logout, #register, #newsalary {
+	font-family: "B52", Verdana, Tahoma;
+	font-size: 1.5em;
+	margin: 0 auto;
+	text-align: center;
+	background-color: #D3D3D3;
+	color: black
+}
+
+a {
+	text-decoration: none
+}
+
+#home:hover, #login:hover, #logout:hover, #register:hover, #newsalary:hover {
+	background-color: gray;
+	color: white;
+	font-style: italic
+}
+
+#selectedemployer, #selectedposition {
+		
+	border: 1px solid #444;
+	border-radius: 5px 0 0 5px;
+	box-shadow: 0 2px 0 #000;
+	
+	display: inline-block;
+	
+	font-family: 'Cabin', helvetica, arial, sans-serif;
+	font-size: 14px;
+	font-weight: 400;
+	height: 60px;
+	margin: 0;
+	padding: 0 10px;
+	text-shadow: 0 -1px 0 #000;
+	width: 200px;
+	background-color: #D3D3D3;
+	color: black
+}
+
+#findemployer, #findposition {
+		
+	border: 1px solid #444;
+	border-radius:  0 5px 5px 0;
+	box-shadow: 0 2px 0 #000;
+	
+	display: inline-block;;
+	
+	font-family: 'Cabin', helvetica, arial, sans-serif;
+	font-size: 14px;
+	font-weight: 400;
+	height: 60px;
+	margin: 0;
+	padding: 0 10px;
+	text-shadow: 0 -1px 0 #000;
+	width: 100px;
+	background-color: #D3D3D3;
+	color: black
+}
+
+.search {
+	display: inline-block;
+	margin: 0 auto;
+	margin-top:150px
+	
+}
+
+#menu {
+	margin: 0 auto;
+	text-align:center
+}
+
+.searchm{
+	width: 50px;
+	display:inline-block
+}
+
+#empl, #position, #salaryamount, #loginUser, #loginPass, #registerUser, #registerPass, #email, #loginUserreset, #notes {
+		
+	border: 1px solid #444;
+	border-radius:  5px;
+	box-shadow: 0 2px 0 #000;
+	
+	display: inline-block;
+	
+	font-family: 'Cabin', helvetica, arial, sans-serif;
+	font-size: 14px;
+	font-weight: 400;
+	height: 60px;
+	margin: 20px;
+	padding: 10px;
+	text-shadow: 0 -1px 0 #000;
+	width: 250px;
+	background-color: #D3D3D3;
+	color: black
+}
+
+#buttonnewsalary, #buttonLoginView, #buttonRegisterView, #buttonreset {
+		
+	border: 1px solid #444;
+	border-radius:  5px;
+	box-shadow: 0 2px 0 #000;
+	
+	display: inline-block;
+	
+	font-family: 'Cabin', helvetica, arial, sans-serif;
+	font-size: 14px;
+	font-weight: 400;
+	height: 40px;
+	margin: 20px;
+	padding: 10px;
+	text-shadow: 0 -1px 0 #000;
+	width: 120px;
+	background-color: #D3D3D3;
+	color: black
+}
+
+#buttonnewsalary:hover {
+		
+	border: 1px solid #444;
+	border-radius:  5px;
+	box-shadow: 0 2px 0 #000;
+	
+	display: inline-block;
+	
+	font-family: 'Cabin', helvetica, arial, sans-serif;
+	font-size: 14px;
+	font-weight: 400;
+	height: 40px;
+	margin: 20px;
+	padding: 10px;
+	text-shadow: 0 -1px 0 #000;
+	width: 120px;
+	background-color: black;
+	color: #D3D3D3;
+}
+
+#infoBox, #loadingBox, #errorBox {
+	border: 1px solid #444;
+	border-radius:  5px;
+	box-shadow: 0 2px 0 #000;
+	
+	
+	
+	font-family: 'Cabin', helvetica, arial, sans-serif;
+	font-size: 14px;
+	font-weight: 400;
+	
+	margin: 20px;
+	padding: 10px;
+	text-shadow: 0 -1px 0 #000;
+	
+	background-color: #D3D3D3;
+	color: black
+}
+
+th, td{
+	border: 2px solid #444;
+	border-radius: 5px;
+	box-shadow: 0 2px 0 #000;
+	font-family: 'Cabin', helvetica, arial, sans-serif;
+	font-size: 14px;
+	font-weight: 400;
+	height: 20px,
+	margin: 20px;
+	padding: 10px;
+	text-shadow: 0 -1px 0 #000;
+	
+	background-color: #D3D3D3;
+	color: black
+}
+#searchresults {
+	text-align: center,
+	margin: 0 auto,
+	
+}
+table {
+	width: 98%
+}
+
+#loginUserreset, #buttonreset {
+	display: none
+}
